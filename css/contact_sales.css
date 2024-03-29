@@ -1,0 +1,197 @@
+.contact-sales{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    z-index: 9999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    background: #FFF;
+    border-radius: 16px;
+    height: auto;
+    padding: 40px;
+    width: 337px;
+    border: 2px solid #ececec;
+}
+
+.contact-sales__inputs p{
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0;
+}
+
+.contact-sales__inputs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 4px;
+    width: 337px;
+}
+
+.contact-sales__inputs img{
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    top: 35px;
+    left: 10px;
+}
+
+.contact-sales__inputs input{
+    width: 305px;
+    border-radius: 14px;
+    border: 1px solid #F1F1F1;
+    padding: 9px 16px 9px 16px;
+    font-size: 14px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contact-sales__inputs_phone input{
+    padding: 9px 0;
+    padding-left: 35px;
+}
+
+.contact-sales p,a{
+    font-family: Outfit;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 300;
+}
+
+.contact-sales_close{
+    z-index: 9999;
+    width: 26px;
+    height: 26px;
+    right: 19px;
+    position: absolute;
+    top: 19px;
+    cursor: pointer;
+}
+
+.important{
+    color: #EC1211;
+}
+
+.important-full{
+    display: none;
+    font-size: 16px;
+    color: #EC1211;
+    line-height: 20.16px;
+    font-weight: 400;
+}
+
+.contact-sales__inputs-error{
+    display: none;
+    color: #EC1211;
+    font-weight: Outfit;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.button-ContactSales_disabled button{
+    background-color: #B9B9B9;
+    pointer-events: none;
+}
+
+.contact-sales__abovemenu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 20px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.contact-sales__abovemenu-img{
+    width: 297px;
+    height: 232px;
+    margin-top: 40px;
+}
+
+.contact-sales__abovemenu-img img{
+    width: 248px;
+    height: 205px;
+    margin-top: 24px;
+    margin-left: 15px;
+}
+
+.contact-sales__abovemenu h2{
+    font-size: 36px;
+    line-height: 45.36px;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    color: #A64CED;
+    margin: 0;
+}
+
+.contact-sales__abovemenu p{
+    width: 345px;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 400;
+    color: #444444;
+    margin: 0;
+}
+
+.button-ContactSales_SuperBtn{
+    width: 100%;
+    margin: 0;
+}
+
+.button-ContactSales_SuperBtn Button{
+    margin: 0;
+    width: 337px;
+}
+
+@media (max-width:420px) {
+    .contact-sales{
+        width: 303px;
+        padding: 20px 16px 20px 16px;
+    }
+
+    .contact-sales_close{
+        top: 8px;
+    }
+
+    .contact-sales__inputs input{
+        width: 271px;
+        padding: 10px 16px 10px 16px;
+    }
+
+    .contact-sales__inputs_phone input{
+        padding-left: 35px;
+        width: 251px;
+    }
+
+    .contact-sales__abovemenu p{
+        width: 295px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .contact-sales__abovemenu h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    .button-ContactSales_SuperBtn Button{
+        width: 255px;
+        height: 57px;
+    }
+}

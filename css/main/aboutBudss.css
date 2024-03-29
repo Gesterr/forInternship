@@ -1,0 +1,168 @@
+.About{
+    margin: 100px 0 100px 0;
+    width: auto;
+    height: auto;
+}
+
+.About__text{
+    margin: 0 0 78px;
+    margin-left: 60px;
+    width: 80%;
+    height: auto;
+}
+
+.About__text h1{
+    margin: 0;
+    font-family:  Outfit;
+    color: white;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 101.76px;
+}
+
+.About__menu{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+}
+
+.About__menu__payment{
+    width: 608px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.About__menu__payment p{
+    color: white;
+    margin: 0 0 142px 60px;
+    position: relative;
+    z-index: 999;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45.36px;
+    width: 410px;
+    height: 140px;
+}
+
+.pink-block1{
+    margin-top: 96px;
+    rotate: -2deg;
+    position: absolute;
+    border-radius: 20px;
+    left: 112px;
+    z-index: 1;
+    width: 350px;
+    height: 40px;
+    background-color:#A64CED;
+}
+
+
+.About-img-frame{
+    width: 423px;
+    height: 489px;
+}
+
+.About-img-frame img{
+    max-width:100%;
+    height: 100%;
+}
+
+.About__Blocks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.About__Blocks__block{
+    color: white;
+    max-width: 325px;
+    height: auto;
+}
+
+.About__Blocks__block img{
+    width: 100px;
+    height: 100px;
+}
+
+.About__Blocks__block h2{
+    margin: 10px 0 20px;
+    font-size: 48px;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: 50.88px;
+}
+
+.About__Blocks__block p{
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+
+@media (max-width:990px) {
+    .About-img-frame{
+        display: none;
+    }
+    .About__menu{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 431px) {
+    .About{
+        margin-top: 40px;
+    }
+
+    .About__text{
+        margin-bottom: 30px;
+        margin-left: 16px;
+    }
+
+    .About__text h1{
+        font-size: 40px;
+        line-height: 42.4px;
+    }
+
+    .About__menu__payment p{
+        font-size: 24px;
+        line-height: 28.8px;
+        width: 268px;
+        height: 87px;
+        margin-left: 16px;
+        margin-bottom: 42px;
+    }
+
+    .pink-block1{
+        margin-top: 63px;
+        width: 235px;
+        height: 23px;
+        left: 53px;
+    }
+
+    .About__Blocks{
+        justify-content: left;
+        margin: 0 16px 0 16px;
+        gap: 60px;
+    }
+
+    .About__Blocks__block img{
+        width: 88.35px;
+        height: 88.35px;
+    }
+
+    .About__Blocks__block h2{
+        font-size: 32px;
+        line-height: 33.92px;
+    }
+    .About__Blocks__block p{
+        font-size: 16px;
+        line-height: 20.16px;
+        margin-bottom: 0;
+    }
+}

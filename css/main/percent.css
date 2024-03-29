@@ -1,0 +1,59 @@
+.Procents{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 100px;
+    background-color: #954CED;
+    padding: 40px 0 40px 0;
+}
+
+.Procents__procent{
+    color: white;
+    width: 217px;
+}
+
+.Procents__procent h3{
+    margin: 0;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 67.84px;
+}
+
+.Procents__procent p{
+    margin: 0;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+@media (max-width:431px) {
+    .Procents{
+        justify-content: left;
+        gap: 40px;
+        margin-bottom: 60px;
+    }
+
+    .Procents__procent{
+        align-items: center;
+        margin-left: 16px;
+        display: flex;
+        width: 100%;
+    }
+
+    .Procents__procent h3{
+        margin-right: 20px;
+        font-size: 40px;
+        line-height: 42.4px;
+    }
+
+    .Procents__procent p{
+        font-size: 20px;
+        line-height: 25.2px;
+    }
+}

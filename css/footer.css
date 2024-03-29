@@ -1,0 +1,196 @@
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 188px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__block{
+    display: flex;
+    flex-direction: column;
+    width: 1360px;
+    height: auto;
+}
+
+.footer__everything{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 57px;
+    height: auto;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #444444;
+}
+
+.foot_mod{
+    margin: 0;
+}
+
+.everything__forLink{
+    display: flex;
+    width: 281px;
+    height: auto;
+    gap: 40px;
+}
+
+.everything__forLink p{
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25.2px;
+    text-align: center;
+}
+
+.footer__smapthone{
+    display: none;
+}
+
+.footer__smapthone-rev{
+    display: block;
+}
+
+.everything__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 637px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    gap:40px;
+}
+
+.everything__buttons .button-ContactSales{
+    margin-right: 0;
+}
+
+.footer_APPGOOGLE{
+    display: flex;
+    gap: 20px;
+}
+
+.footer_APPGOOGLE img{
+    cursor: pointer;
+}
+
+.footer__coopyrighAndTD{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__coopyrighAndTD p{
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 300;
+    font-family: Outfit;
+    color: #B9B9B9;
+}
+
+.footer__everythingForUser{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__everythingForUser a{
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 300;
+    font-family: Outfit;
+    color: #B9B9B9;
+}
+
+@media (max-width:700px) {
+    .everything__buttons{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:431px) {
+    footer{
+        height: auto;
+    }
+
+    .footer__block{
+        width: 100%;
+        margin: 20px 16px 0 16px;
+    }
+    .foot_mod{
+        width: 41.47px;
+        height: 41.47px;
+    }
+    .header-name{
+        font-size: 29.6px;
+        line-height: 13.6px;
+    }
+
+    .footer__everything{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: left;
+        align-items: start;
+        margin-left: 16px;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .everything__forLink{
+        flex-direction: column;
+        gap: 16px;
+        width: 307px;
+    }
+
+    .everything__forLink p{
+        margin: 0;
+        text-align: left;
+    }
+
+    .everything__buttons{
+       align-items: start;
+    }
+
+    .footer__smapthone{
+        display: block;
+    }
+    
+    .footer_APPGOOGLE{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_APPGOOGLE img{
+        width: 196px;
+        height: 57px;
+    }
+
+    .footer__coopyrighAndTD{
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 16px;
+        gap: 0;
+    }
+
+    .footer__smapthone-rev{
+        display: none;
+    }
+}
+
+@media (max-width:1170px) {
+    .footer__everything{
+        flex-direction: column;
+    }
+}

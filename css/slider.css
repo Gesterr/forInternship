@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background-color: #444444;
+}
+
+
+.slider{
+    margin-top: 25%;
+    overflow-x: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+}
+
+.slider img{
+    width: 300px;
+    height: 150px;
+}
+
+.now, .prev, .next{
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+
+
+.buttonHoverPrev{
+    left: 0;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: calc(50vw - 160px);
+}
+
+.buttonHoverNext{
+    right: 0;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: calc(50vw - 170px);
+}
+
+#NextBtn{
+    position: absolute;
+    right: 20px;
+    top: 50%;                         
+   transform: translate(0, -50%)
+}
+
+
+#PrevBtn{
+    position: absolute;
+    left: 20px;
+    top: 50%;                         
+   transform: translate(0, -50%);
+}
+
+#PrevBtn,#NextBtn{
+    font-family: Anton;
+    border-radius: 50%;
+    height:auto;
+    width: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#NextBtn:hover{
+    opacity: 0.8;
+}
+
+#PrevBtn:hover{
+    opacity: 0.8;
+}
+
+
+.circles{
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.active-circle{
+    background-color: white
+}

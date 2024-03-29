@@ -1,0 +1,280 @@
+/* Всё что связанно с шапкой */
+.header{
+    width: 100vw;
+    height: auto;
+}
+
+.header__headYellow{
+    width: 100%;
+    height: 38px;
+    background-color: #FFAA4C;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.yellowLine{
+    margin-left: 60px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.header__menu-btn{
+    display: none;
+}
+
+.yellowLine__button{
+    cursor: pointer;
+    width: 168px;
+    height: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowLine__button-name{
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.16px;
+}
+
+.yellowLine__button_active{
+    border-radius: 20px 20px 0 0 ;
+    background-color: #181818;
+    color: white;
+}
+
+.header__underYellow{
+    z-index: 99999;
+    display: flex;
+    position: sticky;
+    margin-top: 38px;
+    top: 0;
+    width: 100vw;
+    background-color: #181818;
+    height: 71px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__underYellow__logo{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 60px;
+    height: 71px;
+}
+
+.header__underYellow__name{
+    font-family: Outfit;
+    color: white;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 17px;
+}
+
+.button-ContactSales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 182px;
+    height: 57px;
+}
+
+.button-ContactSales button{
+    cursor: pointer;
+    border: none;
+    width: 182px;
+    height: 57px;
+    border-radius: 16px;
+    background-color: #954CED;
+    color: #FFFFFF;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25.2px;
+    transition: 0.2s scale;
+}
+
+.button-ContactSales button:hover{
+    transition: 0.5s background-color;
+    background-color: #181818;
+}
+
+.button-ContactSales button:active{
+    transition: 0.5s background-color;
+    background-color: #7B31D4
+}
+
+.button-ContactSales button:focus{
+    border: 4px solid #BA8BF3;
+}
+
+
+.header__Slogan{
+    gap: 20px;
+    margin-top: 62px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Slogan-text{
+    min-height: 369px;
+    height: auto;
+    width: 671px;
+    margin-left: 110px;
+}
+
+.Slogan-text h1{
+    font-family:  Outfit;
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 101.76px;
+}
+
+.Slogan-text p{
+    padding-bottom: 15px;
+    font-family:  Outfit;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.Everyone-img{
+    float: right;
+    min-width: 369px;
+    width: 595px;
+    min-height: 369px;
+    height: auto;
+}   
+
+.Everyone-img img{
+    width:100%;
+    height: auto;
+}
+
+.header__menuGoogApple{
+    position: relative;
+    width: 135px;
+    height: 57px;
+    border-radius: 16px;
+    border: 1px solid #954CED;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.line{
+    position: absolute;
+    border: 1px solid #444444;
+    height: 25px;
+}
+
+.header__menuGoogApple img{
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
+
+/* Заканчивается здесь */
+@media (max-width:1400px) {
+    .header__Slogan{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .header__Slogan h1{
+        font-size: 5.9vw;
+    }
+
+    .header__Slogan p{
+        font-size: 2vmin;
+    }
+}
+
+@media (max-width:900px) {
+    .header__Slogan{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:431px) {
+    .header__headYellow{
+        justify-content: left;
+    }
+
+    .header__underYellowХ{
+        position: fixed;
+    }
+
+    .header__underYellow .button-ContactSales{
+        display: none;
+    }
+    
+    .header__underYellow__logo{
+        width: 124px;
+        height: 39px;
+        margin-left: 16px;
+    }
+
+    .header__underYellow__logo h3{
+        font-size: 29.6px;
+        line-height: 13.6px;
+    }
+
+    .yellowLine{
+        margin: 0;
+    }
+
+    .header__menu-btn{
+        display: flex;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+        cursor: pointer;
+    }
+
+    .header__Slogan{
+        justify-content: center;
+        margin-top: 51px;
+    }
+
+    .Slogan-text{
+        margin: 0 16px 0 16px;
+        width: 343px;
+    }
+    .Slogan-text h1{
+        font-size: 40px;
+        line-height: 42.4px;
+    }
+
+    .Everyone-img{
+        height: auto;
+    }
+
+    .Slogan-text p{
+        font-size: 16px;
+        line-height: 20.16px;
+    }
+
+    .button-ContactSales button{
+        width: 100%;
+    }
+
+    .button-ContactSales_btn-fix-screen{
+        width: 100%;
+    }
+}

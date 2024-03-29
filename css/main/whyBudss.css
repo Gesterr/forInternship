@@ -1,0 +1,369 @@
+.WhyBudss{
+    margin: 0 0 100px 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.WhyBudss__logo-block{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.WhyBudss__logo{
+    position: relative;
+    width: 664px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhyBudss__fix-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 664px;
+}
+
+.WhyBudss__fix-screen br{
+    display: none;
+}
+
+.WhyBudss__logo h3{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 67.84px;
+}
+
+.WhyBudss__logo p{
+    position: relative;
+    z-index: 2;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 45.36px;
+}
+
+.pink-block{
+    margin-top: 122px;
+    rotate: -3deg;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 1;
+    width: 387px;
+    height: 40px;
+    background-color: #A64CED;;
+}
+
+.WhyBudss__blocks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1300px;
+    height: auto;
+}
+
+.WhyBudss__block-img{
+    height: 100%;
+    width: auto;
+}
+
+.WhyBudss__blocks img{
+    height:100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.WhyBudss__block{
+    position: relative;
+    display: flex;
+    height: 362px;
+    width: auto;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.WhyBudss__img-screen-fix{
+    max-width: 722px;
+    width: 65vw;
+    min-width: 547px;
+}
+
+.WhyBudss__block-text{
+    width: 364px;
+}
+
+.WhyBudss__block h3{
+    font-size: 48px;
+    color: #000000;
+    font-weight: 600;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 60.48px;
+    margin-bottom: 20px;
+}
+
+.WhyBudss__block p{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 24px;
+}
+
+.WhyBudss__block-text img{
+    width: 100%;
+    height: 100%;
+}
+
+.pinkBag,.greenBag,.yellowBag{
+    position: absolute;
+}
+
+.pinkBag{
+    width: 88px;
+    height: 167px;
+    left:460px;
+    top:80px;
+}
+
+.greenBag{
+    width: 72px;
+    height: 64px;
+    top: 298px;
+    left: 72px;
+}
+
+.yellowBag{
+    width: 93px;
+    height: 86px;
+    top:276px;
+    left: 394px;
+}
+
+.WhyBudss__block__like{
+    position: absolute;
+    width: 197.12px;
+    height: 88px;
+    top: 274px;
+    left: 350px;
+}
+
+.WhyBudss__block__like img{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+}
+
+.WhyBudss__block-imgSmartphone{
+    width: 210px;
+    height: 301px;
+    margin-right: 43px;
+    margin-bottom: -61px;
+}
+
+.padding-right{
+    padding-right: 40px;
+}
+
+.WhyBudss__block_fix{
+    width: 547px;
+}
+
+.WhyBudss__block_text-fix{
+    margin-left: 30px;
+    margin-top: -50px;
+    width: 416px;
+    height: 236px;
+}
+
+.WhyBudss__block-text_fix-text2{
+    padding: 0 67px 0 40px;
+    width: 440px;
+    height: 272px;
+}
+
+.WhyBudss__block-text_fix-text3{
+    width: 402px;
+    height: 236px;
+}
+.WhyBudss__block_fix2{
+    justify-content: space-between;
+    max-width: 722px;
+    min-width: 547px;
+    width: 65vw;
+}
+
+@media (max-width:1320px) {
+
+
+    .WhyBudss__blocks{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .WhyBudss__block-img{
+        display: flex;
+        justify-content: left;
+        height: 100%;
+        width: auto;
+    }
+    .WhyBudss__block-img img{
+        width: 193px;
+    }
+
+    .WhyBudss__block h3{
+        font-size: 32px;
+        line-height: 33.92px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .WhyBudss__block p{
+        font-size: 16px;
+        line-height: 20.16px;
+    }
+
+    .padding-right{
+        padding: 0;
+    }
+}
+
+
+@media (max-width:431px){
+
+    .WhyBudss__img-screen-fix{
+        flex-direction: column-reverse;
+    }
+
+    .WhyBudss__block-img img{
+        width: 100%;
+        height: 193px;
+    }
+
+    .WhyBudss__block{
+        min-width: 0;
+        width: 303px;
+        height: auto;
+        padding: 20px 20px 0 20px;
+    }
+
+    .WhyBudss__logo{
+        gap: 20px
+    }
+
+    .WhyBudss__fix-screen br{
+        display: block;
+    }
+
+    .WhyBudss__logo p{
+        font-size: 24px;
+    }
+
+    .WhyBudss__logo h3{
+        font-size: 40px;
+        line-height: 42.4px;
+    }
+
+    .WhyBudss__logo h5 {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    .pink-block{
+        margin-left: 107px;
+        margin-top: 110px;
+        width: 245px;
+        height: 25px;
+    }
+
+    .WhyBudss__block_text-fix{
+        width: 303px;
+        margin: 0;
+        padding-bottom: 77px;
+    }
+
+    .WhyBudss__block-text{
+        width: 303px;
+    }
+
+    .pinkBag{
+        left: 282px;
+        top: 201px;
+        height: 116px;
+        width: 61px;
+    }
+
+    .greenBag{
+        width: 72px;
+        height: 64px;
+        top: 269px;
+        left: 10px;
+    }
+
+    .yellowBag{
+        width: 93px;
+        height: 86px;
+        top: 247px;
+        left: 135px;
+    }
+
+    .WhyBudss__block-text_fix-text2{
+        margin: 0;
+        width: 303px;
+        padding: 0;
+    }
+
+    .WhyBudss__block__like{
+        width: 202px;
+        height: 83px;
+        top: 209px;
+        left: 141px;
+    }
+
+    .WhyBudss__block_fix2{
+        display: flex;
+        flex-direction: column;
+        height: 393px;
+        justify-content: left;
+    }
+
+    .WhyBudss__block-text_fix-text3{
+        margin: 0;
+        height: 184px;
+    }
+
+    .WhyBudss__block-img{
+        margin-top: 5px;
+        margin-left: -115px;
+        width: 75%;
+    }
+
+    .WhyBudss__block-imgSmartphone{
+        position: absolute;
+        width: 143px;
+        height: 185px;
+        top: 228px;
+        left: 145px;
+    }
+}

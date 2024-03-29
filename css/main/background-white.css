@@ -1,0 +1,209 @@
+.BG-White{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    gap: 100px;
+}
+
+.BusinessGrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 285px;
+}
+
+.BusinessGrow__border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 285px;
+    border:1px solid #CFCFCF;
+    gap: 40px;
+    border-radius: 60px;
+}
+
+.BusinessGrow__border br{
+    display: none;
+}
+
+.BusinessGrow__border h2{
+    text-align: center;
+    font-size: 64px;
+    color: #000000;
+    font-weight: 700;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 67.84px;
+}
+
+.Brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.Brand__text{
+    margin-left: 60px;
+    width: 822px;
+    margin-bottom: 20px;
+    height: auto;
+    
+}
+
+.Brand__text h2{
+    font-size: 96px;
+    color: #000000;
+    font-weight: 700;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 101.76px;
+}
+
+.Brand__text p{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-family: Outfit;
+    margin: 0;
+    line-height: 24px;
+}
+
+.Brand__social{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    gap:2px
+}
+
+.Brand__social-top{
+    display: flex;
+    gap:170px;
+}
+
+.Brand__social-down{
+    display: flex;
+    gap:170px;
+}
+
+.fix-logos-screen1{
+    margin-left: 33px;
+}
+
+.fix-logos-screen2{
+    margin-left: 163px;
+}
+
+.Logos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 60px;
+    gap: 90px;
+}
+
+.Logo{
+    height: 60px;
+    width: auto;
+}
+
+@media (max-width:1394px) {
+    .Brand__text{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:431px) {
+    .BusinessGrow__border{
+        width: 343px;
+        height: 261px;
+        text-align: center;
+    }
+
+    .BusinessGrow__border br{
+        display: block;
+    }
+
+    .BusinessGrow__border h2{
+        font-size: 40px;
+        line-height: 42.4px;
+    }
+
+    .button-ContactSales_fix{
+        width: 100%;
+        margin: 0;
+    }
+
+    .button-ContactSales_fix button{
+        margin: 0 20px 0 20px;
+    }
+
+    .Brand{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .Brand__text{
+        margin-left: 16px;
+    }
+
+    .Brand__text h2{
+        font-size: 40px;
+        line-height: 42.4px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .Brand__text p{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 340px;
+    }
+
+    .Brand__social img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .Brand__social-top,.Brand__social-down{
+        gap: 120.17px;
+    }
+
+    .fix-logos-screen1{
+        margin-left: 16px;
+    }
+
+    .fix-logos-screen2{
+        margin-left: 108.08px;
+    }
+
+    .Logos{
+        margin-left: 16px;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: left;
+    }
+
+    .Logo{
+        height: 39px;
+        width: 118px;
+    }
+
+    .Logo img{
+        height: 100%;
+        width: 100%;
+    }
+}
